@@ -5,7 +5,8 @@ function creditCardValidator(numbers) {
   let str = numbers.split("");
   let numbersArray = str;
   console.log(numbersArray);
-  for (var i = 0; i < numbersArray.length; i += 2) {
+  for (var i = 16; i > numbersArray.length; i -= 2) {
+    console.log(numbersAray[i]);
     numbersArray[i] *= 2;
   }
   console.log(numbersArray); 
