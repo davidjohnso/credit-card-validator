@@ -14,17 +14,6 @@ creditCardValidator("4102080860435620")
 
 //Potential Code to use for Business Logic
 
-// function creditCardValidator(numbers) {
-//   let numbersArray = [];
-//   creditCardValidator.forEach(function(element) {
-//     numbers.push(elements )
-//   })
-//   console.log(numbersArray)
-// };
-
-// creditCardValidator("4102080860435620")
-
-
 // function checkNumber() {
 //   let number = document.getElementById("creditCard").value;
 //   let multiplier = "2121212121212121";  // One more character added...
