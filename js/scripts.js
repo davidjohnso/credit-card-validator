@@ -4,7 +4,8 @@
 function creditCardValidator(numbers) {
   let str = numbers.split("");
   let numbersArray = str;
-console.log(numbersArray);
+  console.log(numbersArray);
+
 };
 
 creditCardValidator("4102080860435620")
