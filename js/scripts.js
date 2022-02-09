@@ -5,13 +5,13 @@ function creditCardValidator(str) {
   let numbers = str.split("");
   let numbersArray = numbers;
   console.log(numbersArray);
-  for (let i = 0; i < numbersArray.length; i += 2) {
+  for (let i = numbersArray.length - 1; i >= 0; i -= 2) {
     numbersArray[i] *= 2;
     }
   console.log(numbersArray); 
 };
 
-creditCardValidator("4102080860435620")
+creditCardValidator("4102080880435620")
 
 
 //Utility Logic
