@@ -1,9 +1,9 @@
 //UI Logic
 
 //Business Logic
-function creditCardValidator(numbers) {
-  let str = numbers.split("");
-  let numbersArray = str;
+function creditCardValidator(str) {
+  let numbers = str.split("");
+  let numbersArray = numbers;
   console.log(numbersArray);
   for (var i = 0; i < numbersArray.length; i += 2) {
     numbersArray[i] *= 2;
