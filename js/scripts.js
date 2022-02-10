@@ -1,7 +1,14 @@
 //UI Logic
 
+function noInputtedWord(word, text) {
+  return ((text.trim().length === 0) || (word.trim().length === 0));
+}
+
 //Business Logic
 function creditCardValidator(str) {
+  if (noInputtedWord (word, text)) {
+    return 0;
+  }
   let numbers = str.split("");
   let numbersArray = numbers;
   console.log(numbersArray);
@@ -10,6 +17,12 @@ function creditCardValidator(str) {
     }
   console.log(numbersArray); 
 };
+
+// function doubleDigit(str) {
+//   if (noInputtedWord (word, text)) {
+//     return 0;
+//   }
+// }
 
 creditCardValidator("4102080880435620")
 
